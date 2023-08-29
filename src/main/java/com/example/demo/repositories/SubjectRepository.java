@@ -23,5 +23,5 @@ public class SubjectRepository {
         subjects.add(new Subject("INT100","Data Communication and Networking",3));
         subjects.add(new Subject("INT100","Management Information Systems",3));
         subjects.add(new Subject("INT100","Internship",3));
-    };
+    }
 }

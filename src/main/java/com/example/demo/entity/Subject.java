@@ -11,5 +11,21 @@ import lombok.*;
 
         private String title;
         private int credit;
+
+        public String getName() {
+            return title;
+        }
+
+        public String getSubjectId() {
+            return id;
+        }
+
+        public String getSubjectName() {
+            return title;
+        }
+
+        public String getSubjectCredit() {
+            return String.valueOf(credit);
+        }
     }
 
